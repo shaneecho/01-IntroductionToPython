@@ -13,7 +13,6 @@
 #
 ###############################################################################
 print('Hello, World')
-
 ###############################################################################
 #
 # DONE: 1.
@@ -67,9 +66,8 @@ print('Hello, World')
 #   that is the "Play" button on the toolbar at the top of this window.
 #   Look at the  Run  window to be sure that your string printed as expected.
 #
-print("python is awesome")
 ###############################################################################
-
+print("python is awesome")
 ###############################################################################
 #
 # DONE: 4.
@@ -83,9 +81,8 @@ print("python is awesome")
 #      What number did your   print   display for this TO-DO?
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
-print(3607*34227)
 ###############################################################################
-
+print(3607*34227)
 ###############################################################################
 #
 # DONE: 5.
