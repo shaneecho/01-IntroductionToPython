@@ -161,7 +161,7 @@ allan = rg.SimpleTurtle('turtle')
 allan.pen = rg.Pen('green', 30)
 bobby = rg.SimpleTurtle('turtle')
 bobby.pen = rg.Pen('blue', 30)
-for k in range(2):
+for k in range(3):
     allan.backward(100)
     allan.right(100)
     allan.backward(100)
