@@ -89,18 +89,18 @@ print(2 ** 0.5)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-print("hello")
-print('hello')
-print('a b c')
-print(3+3)
-print("3" + "3")
-print(2 ** 100)
-print(2.0 ** 100)
-print(math.sin(8))
-print(math.sin)
-print(print)
-print(math)
-print('math')
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3+3))
+print(type("3" + "3"))
+print(type(2 ** 100))
+print(type(2.0 ** 100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
 # DONE: 6.

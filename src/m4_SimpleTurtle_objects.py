@@ -158,16 +158,18 @@ natasha.go_to(rg.Point(-200,300))
 #
 ###############################################################################
 allan = rg.SimpleTurtle()
+bobby = rg.SimpleTurtle('turtle')
+bobby.pen = rg.Pen('blue', 30)
 for k in range(2):
     allan.backward(100)
     allan.right(100)
     allan.backward(100)
-bobby = rg.SimpleTurtle('turtle')
-bobby.pen = ('blue' , 30)
-bobby.speed = 1
-allan.speed = 12
-bobby.go_to(rg.Point(100,100))
-allan.go_to(rg.Point(100,100))
+    bobby.forward(100)
+    bobby.right(100)
+    bobby.forward(100)
+bobby.speed = 7
+bobby.go_to(rg.Point(0,0))
+allan.go_to(rg.Point(0,0))
 ###############################################################################
 #
 # TODO: 6.
