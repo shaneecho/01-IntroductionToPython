@@ -168,7 +168,7 @@ allan.right(100)
 bobby.backward(100)
 allan.backward(100)
 bobby.speed = 1
-allan.speed = 1
+allan.speed = 12
 bobby.go_to(rg.Point(100,100))
 allan.go_to(rg.Point(100,100))
 ###############################################################################
