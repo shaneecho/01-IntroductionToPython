@@ -87,7 +87,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # The next few lines show how to:
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
-boris = rg.SimpleTurtle()
+"""boris = rg.SimpleTurtle()
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -130,6 +130,7 @@ boris.forward(20)
 boris.left(10)
 natasha.speed = 5
 natasha.go_to(rg.Point(-200,300))
+"""
 ###############################################################################
 #
 # TODO: 5.
@@ -159,13 +160,13 @@ natasha.go_to(rg.Point(-200,300))
 bobby = rg.SimpleTurtle('turtle')
 bobby.pen = ('blue' , 30)
 allan = rg.SimpleTurtle()
-for k in range(10):
-    bobby.backward(10)
-    allan.backward(10)
-    bobby.right(10)
-    allan.right(10)
-    bobby.backward(10)
-    allan.backward(10)
+#for k in range(10):
+bobby.backward(1000)
+allan.backward(1000)
+bobby.right(100)
+allan.right(100)
+bobby.backward(100)
+allan.backward(100)
 bobby.speed = 1
 allan.speed = 1
 bobby.go_to(rg.Point(100,100))
