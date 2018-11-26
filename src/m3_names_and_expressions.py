@@ -73,18 +73,18 @@ print(2 ** 0.5)
 #      2. Then write code of the form   print(type(BLAH)).
 #      3. THen RUN the code to LEARN its TYPE.
 
-#       "hello"       string
-#       'hello'       char
-#       'a b c'       char
+#       "hello"       str
+#       'hello'       str
+#       'a b c'       str
 #       3 + 3         int
-#       "3" + "3"     string
+#       "3" + "3"     str
 #       2 ** 100      int
 #       2.0 ** 100    float
 #       math.sin(8)   float
 #       math.sin      function
 #       print         function
-#       math          function
-#       'math'        char
+#       math          module
+#       'math'        str
 #
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
