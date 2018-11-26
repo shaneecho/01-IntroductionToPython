@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Shixin Yan.
 """
 ###############################################################################
 #
-# TODO: 1.
+# Done: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
