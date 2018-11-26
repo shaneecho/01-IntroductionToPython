@@ -37,7 +37,7 @@ import rosegraphics as rg
 #     In the Project window (to the left), right click on the src  folder,
 #     then select  Mark Directory As  ~  Sources Root.
 #
-#   You will see that  rosegraphics  in the  import  statement above (line 28)
+#   You will see that  rosegraphics      in the  import  statement above (line 28)
 #   is no longer marked as an error.  You will do this in all projects
 #   that use rosegraphics, so get used to it. :)
 #
@@ -126,7 +126,10 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+boris.forward(20)
+boris.left(10)
+natasha.speed = 5
+natasha.go_to(rg.Point(-200,300))
 ###############################################################################
 #
 # TODO: 5.
