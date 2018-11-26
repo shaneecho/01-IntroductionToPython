@@ -133,7 +133,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -157,7 +157,8 @@ window.delay(20)  # Bigger numbers mean slower animation.
 #   As always, test by running the module.
 #
 ###############################################################################
-allan = rg.SimpleTurtle()
+allan = rg.SimpleTurtle('turtle')
+allan.pen = rg.Pen('green', 30)
 bobby = rg.SimpleTurtle('turtle')
 bobby.pen = rg.Pen('blue', 30)
 for k in range(2):
@@ -168,11 +169,12 @@ for k in range(2):
     bobby.right(100)
     bobby.forward(100)
 bobby.speed = 7
+allan.speed = 7
 bobby.go_to(rg.Point(0,0))
 allan.go_to(rg.Point(0,0))
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
