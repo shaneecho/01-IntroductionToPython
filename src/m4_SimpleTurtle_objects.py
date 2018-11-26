@@ -156,7 +156,20 @@ natasha.go_to(rg.Point(-200,300))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+bobby = rg.SimpleTurtle('turtle')
+bobby.pen = ('blue' , 30)
+allan = rg.SimpleTurtle()
+for k in range(10):
+    bobby.backward(10)
+    allan.backward(10)
+    bobby.right(10)
+    allan.right(10)
+    bobby.backward(10)
+    allan.backward(10)
+bobby.speed = 1
+allan.speed = 1
+bobby.go_to(rg.Point(100,100))
+allan.go_to(rg.Point(100,100))
 ###############################################################################
 #
 # TODO: 6.
