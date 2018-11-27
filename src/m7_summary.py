@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
