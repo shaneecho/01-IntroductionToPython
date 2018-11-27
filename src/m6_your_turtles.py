@@ -34,20 +34,26 @@ flash = rg.SimpleTurtle('turtle')
 flash.pen = rg.Pen('yellow', 3)
 zoom = rg.SimpleTurtle('turtle')
 zoom.pen = rg.Pen('black', 3)
-flash.speed = 20
-zoom.speed = 20
-size = 50
+flash.speed = 50
+zoom.speed = 50
+size = 70
 for k in range(18):
     flash.draw_square(size)
     zoom.draw_circle(size)
     flash.pen_down()
     flash.right(20)
-    flash.forward(50)
+    flash.forward(30)
     zoom.pen_down()
     zoom.left(20)
-    zoom.backward(50)
+    zoom.backward(30)
 
 window.tracer(20)
-damage = rg.SimpleTurtle()
+damage = rg.SimpleTurtle('triangle')
+damage.pen = rg.Pen('dark blue',1)
+damage.backward(30)
+
+for k in range(1000):
+    damage.right(50)
+    damage.forward(2*k)
 
 window.close_on_mouse_click()
